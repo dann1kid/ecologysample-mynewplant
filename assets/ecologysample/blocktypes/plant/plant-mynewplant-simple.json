@@ -1,0 +1,57 @@
+{
+  "code": "plant-mynewplant-simple",
+  "class": "BlockPlant",
+  "enabled": true,
+  "creativeinventory": {
+    "general": ["*"],
+    "ecologysample": ["*"]
+  },
+  "blockmaterial": "Plant",
+  "drawtype": "JSON",
+  "shape": { "base": "game:block/plant/flower/cornflower/1" },
+  "textures": {
+    "cornflower": { "base": "game:block/plant/flower/cornflower/1" }
+  },
+  "attributes": {
+    "plantContainable": {
+      "smallContainer": {},
+      "largeContainer": {}
+    },
+    "ecologyParticipant": true,
+    "ecologySpecies": "mynewplant-simple",
+    "ecologyHabitat": "Terrestrial",
+    "ecologySpreadBlock": "plant-mynewplant-simple",
+    "minTemp": 0,
+    "maxTemp": 32,
+    "minRain": 0.25,
+    "maxRain": 1,
+    "minForest": 0,
+    "maxForest": 0.55,
+    "ecologySpreadRate": 0.55,
+    "ecologySameSpeciesSpacing": 1,
+    "ecologyOtherSpeciesSpacing": 1
+  },
+  "sideopaque": { "all": false },
+  "sidesolid": { "all": false },
+  "replaceable": 3000,
+  "resistance": 0.5,
+  "lightAbsorption": 0,
+  "collisionbox": null,
+  "selectionbox": {
+    "x1": 0.2,
+    "y1": 0,
+    "z1": 0.2,
+    "x2": 0.8,
+    "y2": 0.3,
+    "z2": 0.8
+  },
+  "sounds": {
+    "place": "game:block/plant",
+    "break": "game:block/plant"
+  },
+  "materialDensity": 200,
+  "combustibleProps": {
+    "burnTemperature": 600,
+    "burnDuration": 8
+  }
+}

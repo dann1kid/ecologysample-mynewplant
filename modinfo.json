@@ -1,0 +1,12 @@
+{
+  "type": "content",
+  "modid": "ecologysample",
+  "name": "Ecology Sample — MyNewPlant",
+  "description": "Reference content mod for Ecosystem-Flora third-party ecology (ecologyParticipant). Copy patterns into your mod; uses vanilla plant shapes/textures as placeholders.",
+  "authors": ["ecosystemflora"],
+  "version": "1.0.0",
+  "side": "Universal",
+  "dependencies": {
+    "game": "1.22.0"
+  }
+}

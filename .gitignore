@@ -1,0 +1,12 @@
+# Vintage Story / tooling
+*.dll
+*.pdb
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# OS
+Thumbs.db
+.DS_Store
