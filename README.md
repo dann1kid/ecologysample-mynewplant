@@ -27,7 +27,6 @@ Shapes/textures use **vanilla cornflower** paths so the mod loads without your o
 ## Docs in this repo
 
 - **[ECOSYSTEM_INTEGRATION.md](ECOSYSTEM_INTEGRATION.md)** — attribute reference for Ecosystem - Flora.
-- **[PUBLISHING.md](PUBLISHING.md)** — only if you maintain a fork; how to sync from a private monorepo.
 
 ## Copy into your mod
 
