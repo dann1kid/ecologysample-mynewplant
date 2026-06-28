@@ -27,6 +27,8 @@ Shapes/textures use **vanilla cornflower** paths so the mod loads without your o
 ## Docs in this repo
 
 - **[ECOSYSTEM_INTEGRATION.md](ECOSYSTEM_INTEGRATION.md)** — attribute reference for Ecosystem - Flora.
+- **[ECOLOGY.md](ECOLOGY.md)** — full `mynewplant` profile (cornflower template), reference CSV, tuning checklist.
+- **`species/*.reference.csv`** — informational ecology/season rows (not loaded by the game).
 
 ## Copy into your mod
 

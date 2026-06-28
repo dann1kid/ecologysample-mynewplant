@@ -1,0 +1,27 @@
+[
+  {
+    "comment": "Handbook ecology text when Ecosystem - Flora is installed (ecosystemHandbook behavior).",
+    "file": "ecologysample:blocktypes/plant/plant-mynewplant-simple.json",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "value": [{ "name": "ecosystemHandbook" }],
+    "dependsOn": [{ "modid": "ecosystemflora" }]
+  },
+  {
+    "file": "ecologysample:blocktypes/plant/plant-mynewplant-mature.json",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "value": [{ "name": "ecosystemHandbook" }],
+    "dependsOn": [{ "modid": "ecosystemflora" }]
+  },
+  {
+    "file": "ecologysample:blocktypes/plant/plant-mynewplant-sprout.json",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "value": [{ "name": "ecosystemHandbook" }],
+    "dependsOn": [{ "modid": "ecosystemflora" }]
+  }
+]

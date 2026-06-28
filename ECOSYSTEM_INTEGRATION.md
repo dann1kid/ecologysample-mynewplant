@@ -26,7 +26,11 @@ Vanilla `game:` plants use built-in path rules; third-party mode is **additive**
 | `ecologyMinSunlight` | Sunlight (terrestrial / tree). |
 | `ecologySameSpeciesSpacing`, `ecologyOtherSpeciesSpacing` | Spacing in blocks. |
 | `ecologyMinGroundFertility`, `ecologyMaxGroundFertility` | Soil fertility window. |
+| `ecologyMeadowHarvest` | `whole` (default), `delegate`, or `none` — break harvest vs knife/scythe drygrass. |
+| `ecologyReproduce` | Default `true`; set `false` on sprout/juvenile so only mature parents spread. |
 | `ecologyMaxWaterDepth`, `ecologyMinWaterDepth`, `ecologyVerticalBlocks`, `ecologyExactWaterDepth` | Aquatic / reed tuning. |
+
+See **[ECOLOGY.md](ECOLOGY.md)** in this repo for a complete meadow-colonizer example (`mynewplant` ≈ cornflower) and reference CSV files.
 
 ## Who does what
 

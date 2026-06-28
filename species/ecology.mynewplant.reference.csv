@@ -1,0 +1,2 @@
+species,taxon,min_temp,max_temp,min_rain,max_rain,min_forest,max_forest,spread_rate,spread_mode,same_species_spacing,other_species_spacing,spacing_from_species,min_sunlight,soil_min_fertility,soil_max_fertility,context_affinity,hold_strength,moisture,light,flower_maturation_h,flower_cooldown_h,soil_succession_role
+mynewplant,flower,3,23,0.35,0.75,0.1,0.45,1.55,Independent,2,1,wilddaisy=3|catmint=3,0,100,180,Open,1.08,Mesic,Open,48,24,MeadowColonizer
